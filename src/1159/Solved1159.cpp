@@ -24,7 +24,7 @@ int main()
     }
 
     map<char, int> initialTable;
-    vector<int> result;
+    vector<char> result;
 
     for(int i = 0; i < players.size(); ++i) {
         initialTable[players[i][0]]++;
